@@ -1,0 +1,248 @@
+
+.login2{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    }
+    .lg{
+        background-color: #180161;
+        background-image: url(https://wallpapercave.com/wp/wp9432494.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+#login{
+    width: 30vw;
+    height: 85vh;
+    background-color: #180161;
+    opacity: 0.8;
+    position: absolute;
+    top: 10vh;
+    border-radius: 50px;
+    border: 2px solid orange;
+    display: block;
+}
+#sgin{
+    width:20vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color:skyblue;
+    color:green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.box{
+    height: 5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+    border: solid;
+    border-top: 50px;
+    border-left: 50px;
+    border-right: 500px;
+   border-color: black;
+   text-align: center;
+}
+#lgre{
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+tr{
+    height: 8vh; 
+}
+#Sign{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ @media(max-width:699px){
+   #login{
+    width: 90vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    background-color: #180161;
+    opacity: 0.8;
+    border-radius: 50px;
+    border: 2px solid orange;
+}
+.box{
+    height: 3vh;
+    width: 62vw;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+    border: solid;
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 500px;
+   border-color: black;
+   text-align: center;
+}
+tr{
+    height: 5vh; 
+}
+.login2{
+    color: wheat;
+ display: flex;
+ justify-content: center;
+ background-color: #180161;
+}
+.lg{
+        background-color: #180161;
+        background-image: url(https://wallpapercave.com/wp/wp9432494.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .submit{
+        width: 30vw;
+        height: 4vh;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    #sgin{
+        width:60vw;
+        height: 5vh;
+        border-radius: 10px;
+        background-color:skyblue;
+        color:green;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+ }
+
+ @media only screen and (min-width:700px) and (max-width:1024px){
+    .box{
+        height: 4vh;
+        width: 55vw;
+        display: flex;
+        justify-content: start;
+        border-radius: 10px;
+        border: solid;
+        border-top: 50px;
+        border-left: 50px;
+        border-right: 500px;
+       border-color: black;
+       text-align: center;
+       font-size: 25px;
+    }
+    #login{
+        width: 80vw;
+        height: 85vh;
+        background-color: #180161;
+        opacity: 0.8;
+        position: absolute;
+        top: 10vh;
+    }
+    .login2{
+        color: wheat;
+     display: flex;
+     justify-content: center;
+    }
+    tr{
+        height: 6vh; 
+    }
+    #lgre{
+        color: chocolate;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 60px;
+    }
+    #mission{
+        color: beige;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 30px;
+    }
+    .ms{
+       color: yellowgreen;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        margin-left: 2vw;
+        margin-top: 8vh;
+    }
+    td{
+        font-size: 30px;
+    }
+    .mss1{
+        color: aliceblue;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15;
+        margin-left: 2vw;
+    }
+    .submit{
+        width: 20vw;
+        height: 3vh;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    #Sign{
+        text-align: center; font-size: 50px; font-family: 'Times New Roman', Times, serif;
+    }
+    .lg{
+        background-color: #180161;
+        background-image: url(https://wallpapercave.com/wp/wp9432494.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    #sgin{
+        width:50vw;
+        height: 5vh;
+        border-radius: 10px;
+        background-color:skyblue;
+        color:green;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3rem;
+    }
+ }
+ #Register{
+    width: 30vw;
+    height: 85vh;
+    background-color: #180161;
+    opacity: 0.8;
+    position: absolute;
+    top: 10vh;
+    border-radius: 50px;
+    border: 2px solid orange;
+    display: block;
+ }
+ @media(max-width:699px){
+    #Register{
+        width: 90vw;
+        height: 70vh;
+        position: absolute;
+        top: 15vh;
+        background-color: #180161;
+        opacity: 0.8;
+        border-radius: 50px;
+        border: 2px solid orange;
+    }
+    #sem{
+        width: 8vw;
+        height: 3vh;
+    }
+ }
+ @media only screen and (min-width:700px) and (max-width:1024px){
+    #Register{
+        width: 80vw;
+        height: 85vh;
+        background-color: #180161;
+        opacity: 0.8;
+        position: absolute;
+        top: 10vh;
+    }
+    #sem{
+        width: 8vw;
+        height: 3vh;
+        font-size: 1.5rem;
+    }
+ }

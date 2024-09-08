@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#dtl{
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+    background-color: cadetblue;
+    height: 30px;
+    padding: 10px;
+    list-style: none;
+}
+.yre{
+    text-align: center;
+    font-size: 2rem;
+}
+.tb{
+    margin-top: 4rem;
+    display: inline-flex;
+    margin-left: 5rem;
+    width: 40rem;
+}
+
+td{
+    text-align: center;
+    width: 20rem;
+}
+@media (max-width:699px){
+
+    #dtl{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+        background-color: cadetblue;
+        height: 50px;
+        padding: 10px;
+        width: 100vw;
+    }
+    #year_std{
+        height: 2rem;
+        width: 3rem;
+    }
+    .tb{
+        margin-top: 4rem;
+        display: inline-flex;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+    .download{
+        border-radius: 10px;
+        height: 2rem;
+        width: 15rem;
+        background-color: goldenrod;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .yre{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+    .sub{
+        margin-top: 1rem;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    #subject{
+        height: 2rem;
+        width: 11rem;
+    }
+    #year_std_sec{
+        height: 2rem;
+        width: 3rem;
+    }
+    #subject_sec{
+        height: 2rem;
+        width: 11rem;
+    }
+}
