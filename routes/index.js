@@ -14,7 +14,7 @@ const jwt=require('jsonwebtoken');
 const {requireAuth}= require('../middleware/protected');
 const {adminAuth}=require('../middleware/adminprotected')
 // const isLoggedIn=require('../middleware/session');
-// const port= process.env.SERVER_PORT|3000;
+const port= process.env.SERVER_PORT;
 const jwtSecretKey= process.env.SECRET_KEY;
 app.get('/',(req,res)=>{
   res.render("semprep")
