@@ -2,9 +2,8 @@
   "name": "semprep",
   "version": "0.0.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
