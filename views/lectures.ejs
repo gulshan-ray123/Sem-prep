@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/notes.css">
+</head>
+<body>
+    <div id="first">
+        <header id="navbar">
+            
+            <ul id="dtl">
+                <li><a href="/student/dashboard"><button>Dashboard</button></a></li>
+            </ul>
+                <section id="sec">
+                   <%lectures.forEach(function(lecture){%>
+                    <table class="tb" border="2">
+                        <tr><td id="gtway" colspan="2"><iframe src="<%=lecture.Link%>" class="img"></iframe></td></tr>
+                        <tr><td>Subject:</td><td><%=lecture.Subject%></td></tr>
+                        <tr><td>Year</td><td><%=lecture.Year%></td></tr>
+                        <tr><td>Faculty:</td><td><%=lecture.Genre%></td></tr>
+                        <tr><td colspan="2"><a href="<%=lecture.Video%>"><button class="download">Watch Now</button></a></td></tr>
+                    </table>
+                   <% })%>
+                    
+                </section>
+</body>
+</html>

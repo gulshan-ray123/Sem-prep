@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(218, 218, 218);
+  }
+  .navbar{
+    height: auto;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  .container{
+    width: 80%;
+    margin: 20px auto;
+   text-align: center;
+  }
+  .dashboard{
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: space-between;
+  }
+  .dashboard .card{
+    background-color: white;
+    width: 25%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  .dashboard .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  .card h3 {
+    margin: 5px;
+    }
+  
+    @media (max-width: 1024px) {
+    .dashboard .card {
+      width: 40%;  
+    }
+  }
+
+  @media (max-width: 768px){
+    .dashboard .card {
+      width: 100%; 
+    }
+  }
+
+</style>
+<body>
+  <div class="navbar">
+    Navbar
+  </div>
+  <div class="container">
+    <h3>Admin Navbar</h3><br>
+    <div class="dashboard">
+      
+      <div class="card">Upload put Sessional
+        <table>
+          <form action="/collperupld" method="post">
+          <tr><td>Subject:</td><td><input type="text" placeholder="Subject" name="subject"></td></tr>
+          <tr><td>Year</td><td><input type="number" placeholder="Year" name="year"></td></tr>
+          <tr><td>Genre</td><td><input type="text" placeholder="Notes Name" name="genre"></td></tr>
+          <tr><td>Link</td><td><input type="text" placeholder="Link" name="link"></td></tr>
+          <tr><td colspan="2"><a><button type="submit">Upload Now</button></a></td></tr>
+        </form>
+        </table>
+      </div>
+      <div class="card">one shot notes
+        <table>
+          <form action="/oneshortnotes" method="post">
+          <tr><td>Subject:</td><td><input type="text" placeholder="Subject" name="subject"></td></tr>
+          <tr><td>Year</td><td><input type="number" placeholder="Year" name="year"></td></tr>
+          <tr><td>Genre</td><td><input type="text" placeholder="Notes Name" name="genre"></td></tr>
+          <tr><td>Link</td><td><input type="text" placeholder="Link" name="link"></td></tr>
+          <tr><td colspan="2"><button type="submit">Upload Now</button></td></tr>
+        </form>
+        </table>
+      </div>
+      <div class="card">Upload lectures
+        <table>
+          <form action="/upload/lecture" method="post">
+          <tr><td>Link</td><td><input type="text" placeholder="Thumbnail Link" name="link"></td></tr>
+          <tr><td>Year</td><td><input type="number" placeholder="Year" name="year"></td></tr>
+          <tr><td>Subject</td><td><input type="text" placeholder="Subject" name="subject"></td></tr>
+          <tr><td>Genre</td><td><input type="text" placeholder="Channel Name" name="genre"></td></tr>
+          <tr><td>Video Link</td><td><input type="text" placeholder="Video Link" name="video"></td></tr>
+          <tr><td colspan="2"><button type="submit">Upload Now</button></td></tr>
+        </form>
+        </table>
+      </div>
+      <div class="card">Important Question
+        <table>
+          <form action="/miniproject/upload" method="post">
+          <tr><td>Subject:</td><td><input type="text" placeholder="Subject" name="subject"></td></tr>
+          <tr><td>Year</td><td><input type="number" placeholder="Year" name="year"></td></tr>
+          <tr><td>Genre</td><td><input type="text" placeholder="" name="genre"></td></tr>
+          <tr><td>Link</td><td><input type="text" placeholder= Link" name="link"></td></tr>
+          <tr><td colspan="2"><a><button type="submit">Upload Now</button></a></td></tr>
+        </form>
+        </table>
+      </div>
+      <div class="card">AKTU Announcemets
+        <table>
+          <form action="/upload/answer/aktu" method="post">
+          <tr><td>Announcements:</td><td><input type="text" placeholder="Announcements" name="subject"></td></tr>
+          <tr><td>Year</td><td><input type="number" placeholder="Year" name="year"></td></tr>
+          <tr><td>Link</td><td><input type="text" placeholder= Link" name="link"></td></tr>
+          <tr><td colspan="2"><a><button type="submit">Upload Now</button></a></td></tr>
+        </form>
+        </table>
+      </div>
+      <div class="card">view
+        <a href="/view/user"><button>View Users</button></a>
+      </div>
+        
+  </div>
+</body>
+</html>

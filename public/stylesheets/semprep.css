@@ -18,6 +18,22 @@ html,body{
  justify-content: end;
  margin-right: 10vw;
 }
+#dash{
+    height: 2rem;
+     border-radius: 20px; 
+     background-color: greenyellow;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     cursor: pointer;
+     /* animation: look 2s ease-in-out 1s infinite normal normal; */
+     animation-name: look;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+     animation-delay: 10ms;
+     animation-iteration-count: infinite
+}
+@keyframes look{
+    from{background-color: gold;} to{background-color: orange;}
+}
 .lst{
     display: inline-flex;
     justify-content: end;
@@ -26,22 +42,27 @@ html,body{
     margin-top: 2vh;
 }
 #logo{
-    background-image: url("/public/logo.jpeg");
+    background-image: url("/public/images/logo.jpeg");
     height: 9vh;
     width: 7vw;
     background-size: cover;
     position: absolute;
-    margin-right: 90vw;
+    margin-right: 80vw;
     transform: scale(1.2);
     border-radius: 30%;
     margin-top: 7px;
 }
+
 #main{
     width: 100vw;
     background-color: #180161;
     opacity: 0.95;
     height: 90vh;
     position: absolute;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
 }
 #head{
     margin-top: 26vh;
@@ -340,6 +361,9 @@ tr{
     bottom: 5vh;
     margin-left: 25vw;
 }
+#prep{
+    display: none;
+ }
 #instagram{
     color: white;
     font-size: 30px;
@@ -462,7 +486,7 @@ tr{
     border-radius: 10%;
     margin-top: 2vh;
     position: relative;
-    left: 60vw;
+    left: 53vw;
     background-color: orangered;
     color: aliceblue;
   }
@@ -490,6 +514,9 @@ tr{
  }
  .btn{
     width: 40vw;
+ }
+ #prep{
+    display: block;
  }
  .btn2{
     width: 40vw;

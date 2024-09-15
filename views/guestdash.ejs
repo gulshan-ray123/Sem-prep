@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/studentdash.css">
+</head>
+<body>
+    <header id="navbar">
+        <button id="menu" onclick="show();">Menu</button>
+        <ul id="nav">
+            <li class="list"><input type="text" placeholder="Search" name="search" id="search"></li>
+            <li class="list"><button id="btn">Search</button></li>
+            <li id="nme">Guest</li>
+            <li id="sem"> Not Available</li>
+            <li class="list"><a href="Semprep.html" style="text-decoration: none;"><button id="hme">Home</button></a></li>
+        </ul>
+        <a href="Semprep.html" style="text-decoration: none;"><button id="hme2">Home</button></a>
+    </header>
+    <section id="dtl"><div id="logo"></div>
+        <ul id="info">
+            <li class="point"> <a href="/notes">Notes</a></li>
+            <li class="point"><a href="/student/dashboard">AKTU Announcements</a></li>
+            <li class="point"><a href="/student/dashboard">Important Questions</a></li>
+            <li class="point"><a href="/student/dashboard">PYQ Papers</a></li>
+            <li class="point"><a href="/student/dashboard">Video Lectures</a></li>
+            <li class="point"><a href="/student/dashboard">PYQ Sessional/ PUT Papers</a></li>
+            <li class="point"><a href="/student/dashboard">One Short Notes</a></li>
+            <li class="point"><a href="/student/dashboard"><button style="width: 5rem; height: 2rem; background-color: blueviolet; color: yellow; border-radius: 10px;">Log Out </button></a></li>
+        </ul>
+        </section>
+        <section id="dtl2"><div id="logo"></div>
+            <ul id="info">
+                <li class="point"> <a href="/notes">Notes</a></li>
+                <li class="point"><a href="/student/dashboard">AKTU Announcements</a></li>
+                <li class="point"><a href="/student/dashboard">Important Questions</a></li>
+                <li class="point"><a href="/student/dashboard">PYQ Papers</a></li>
+                <li class="point"><a href="/student/dashboard">Video Lectures</a></li>
+                <li class="point"><a href="/student/dashboard">PYQ Sessional/ PUT Papers</a></li>
+                <li class="point"><a href="/student/dashboard">One Short Notes</a></li>
+                <li class="point"><a href="/student/dashboard"><button style="width: 5rem; height: 2rem; background-color: blueviolet; color: yellow; border-radius: 10px;">Log Out </button></a></li>
+            </ul>
+            </section>
+        <section id="dtl3"><h1 id="wlc">Welcome back, Guest!</h1><br>
+            <p class="point" style="margin-top: -20px; margin-left: 10rem;">Always stay updated in your student portal</p>
+        </section>
+        <section id="dtl4"><h1 id="wlc">Welcome back, Guest!</h1><br>
+            <p class="point" style="margin-top: -5px; margin-left: 2rem;">Always stay updated in your student portal</p>
+        </section>
+        <section id="pinfo">
+            <table id="datap">
+                <tr><th>
+                    Your Profile
+                </th></tr>
+                <tr><td></td></tr>
+                <tr><td>Name:</td>
+                <td>Guest</td></tr>
+                <tr>
+                    <td>Email:</td><td>guest@gmail.com</td>
+                </tr>
+                <tr><td>Semester</td><td>Not Available</td></tr>
+            </table>
+            <table id="tbup">
+                <tr><th>Update Profile</th></tr>
+                <tr><td>New Name</td><tr><td><input type="text" placeholder="name" name="name" class="name"></td></tr>
+                <tr><td>New Email</td><tr><td><input type="email" placeholder="email" name="email" class="name"></td></tr>
+                <tr><td>Semester</td><tr><td><input type="number" placeholder="semester" name="sem" class="name"></td></tr>
+                <tr><td><button id="upbtn">Update Detail</button></td></tr>
+            </table>
+</body>
+<script src="/javascripts/studash.js"></script>
+</html>
+

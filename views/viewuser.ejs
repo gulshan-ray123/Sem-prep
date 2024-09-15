@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/notes.css">
+</head>
+<body>
+    
+       <%users.forEach(function(user){%>
+        <table class="tb" border="2">
+        <tr><td>Name:</td><td><%= user.Name%></td></tr>
+        <tr><td>Email:</td><td><%= user.Email%></td></tr>
+        <tr><td>Semester:</td><td><%= user.Semester%></td></tr>
+        <tr><td colspan="2"><a href=""><button class="download">Delete User</button></a></td></tr>
+    </table>
+      <% })%>
+</body>
+</html>

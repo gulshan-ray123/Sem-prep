@@ -1,5 +1,5 @@
 const mongoose= require("mongoose");
-mongoose.connect("mongodb://localhost:27017/semprep");
+mongoose.connect("mongodb+srv://gk0507818:c2joUMsAuPCh8UhB@cluster0.h9jgx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 // maing schema.
 
