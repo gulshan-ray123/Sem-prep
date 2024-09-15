@@ -14,7 +14,7 @@ const jwt=require('jsonwebtoken');
 const {requireAuth}= require('../middleware/protected');
 const {adminAuth}=require('../middleware/adminprotected')
 // const isLoggedIn=require('../middleware/session');
-const port= process.env.SERVER_PORT;
+const port= process.env.SERVER_PORT||3000;
 const jwtSecretKey= process.env.SECRET_KEY;
 app.get('/',(req,res)=>{
   res.render("semprep")
@@ -291,7 +291,7 @@ app.get('/logout',(req,res)=>{
   res.redirect('/');
 });
 
-// app.listen(port,function(){
-//   console.log("App is listening at port:" +port);
-// })
+app.listen(port,function(){
+  console.log("App is listening at port:" +port);
+})
 module.exports = app;
