@@ -1,5 +1,6 @@
 require('dotenv').config();
 var express = require('express');
+const mongoose=require('mongoose');
 var app = express();
 const userModel=require('../model/user')
 const collegeModel=require('../model/colegeTest');
@@ -15,7 +16,6 @@ const {adminAuth}=require('../middleware/adminprotected')
 // const isLoggedIn=require('../middleware/session');
 // const port= process.env.SERVER_PORT|3000;
 const jwtSecretKey= process.env.SECRET_KEY;
-
 app.get('/',(req,res)=>{
   res.render("semprep")
 });
