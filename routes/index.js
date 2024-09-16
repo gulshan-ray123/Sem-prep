@@ -108,7 +108,6 @@ app.get('/student/dashboard',requireAuth,async(req,res)=>{
     console.log(users);
     res.render('studentdash',{users})
 })
-
 app.get('/guest/dashboard',(req,res)=>{
   res.render('guestdash')
 })
