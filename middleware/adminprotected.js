@@ -1,4 +1,5 @@
 const jwt= require('jsonwebtoken');
+require('dotenv').config();
 const jwtSecretKey=process.env.SECRET_KEY;
 const adminAuth=(req,res,next)=>{
        const token=req.cookies.tokenadmin;
