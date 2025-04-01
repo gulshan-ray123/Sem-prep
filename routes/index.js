@@ -290,7 +290,7 @@ app.get('/logout',(req,res)=>{
   res.redirect('/');
 });
 
-app.listen(port,function(){
-  console.log("App is listening at port:" +port);
-})
+// app.listen(port,function(){
+//   console.log("App is listening at port:" +port);
+// })
 module.exports = app;
